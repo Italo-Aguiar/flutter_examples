@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(TabViewApp());
 
-class MyApp extends StatelessWidget {
+class TabViewApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Playground',
+      title: 'TabView Example',
       home: DefaultTabController(
         length: 3,
         child: Scaffold(
           appBar: AppBar(
-            title: Text('Flutter Playground'),
+            title: Text('TabView Example'),
             bottom: TabBar(
               tabs: [
                 Tab(icon: Icon(Icons.announcement)),
