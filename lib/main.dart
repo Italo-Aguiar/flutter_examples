@@ -62,6 +62,8 @@ class _FormCheckersState extends State {
                     _sliderValue = inValue;
                   });
                 },
+                activeColor: Colors.purple,
+                inactiveColor: Colors.blue,
               ),
               Row(
                 children: [
